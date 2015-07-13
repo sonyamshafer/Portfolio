@@ -1,0 +1,63 @@
+#banner{
+	border: solid 0px red;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	font-size: 80pt;
+	text-align: center;
+	vertical-align: middle;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#57afe4+14,52b3db+38,00bdcf+58,00c9b5+78,36cd96+100 */
+	background: #57afe4; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #57afe4 14%, #52b3db 38%, #00bdcf 58%, #00c9b5 78%, #36cd96 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(14%,#57afe4), color-stop(38%,#52b3db), color-stop(58%,#00bdcf), color-stop(78%,#00c9b5), color-stop(100%,#36cd96)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, #57afe4 14%,#52b3db 38%,#00bdcf 58%,#00c9b5 78%,#36cd96 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, #57afe4 14%,#52b3db 38%,#00bdcf 58%,#00c9b5 78%,#36cd96 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, #57afe4 14%,#52b3db 38%,#00bdcf 58%,#00c9b5 78%,#36cd96 100%); /* IE10+ */
+	background: linear-gradient(135deg, #57afe4 14%,#52b3db 38%,#00bdcf 58%,#00c9b5 78%,#36cd96 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57afe4', endColorstr='#36cd96',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#bannerContents{
+	position: relative;
+	top: 8%;
+	border: solid 0px blue;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Megrim;
+	color: white;
+}
+
+#main{
+	border: solid 0px orange;
+}
+
+#gohome{
+	position: absolute;
+	top: 0px;
+	left: 115px;
+	height: 65px;
+	border: solid 0px black;
+}
+
+.home{
+	height: 35px;
+	width: 110px;
+	font-size: 12pt;
+	border-radius: 4pt;
+	background-color: rgba(255, 255, 255, .35);
+	position: absolute;
+	top: 5px;
+	right: 120px;
+	font-family: Megrim;
+	color: white;
+	border: none;
+}
+
+.home:hover{
+	background-color: #FFFFFF;
+	color: #36cd96;
+}
+
+a:link {
+    text-decoration: none;
+}

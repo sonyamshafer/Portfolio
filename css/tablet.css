@@ -1,0 +1,128 @@
+*{
+	border: solid 0px red;
+	font-family: Megrim;
+	font-weight: bold;
+	color: white;
+}
+
+html, body, .container{
+	height: 100vh;
+	overflow: scroll;
+}
+
+.container{
+	border: solid 0px yellow;
+}
+
+#spy{
+	opacity: .1;
+	position: absolute;
+	right: 0px;
+	height: 120px;
+}
+
+#banner{
+	border: solid 0px red;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	font-size: 80pt;
+	text-align: center;
+	vertical-align: middle;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#57afe4+14,52b3db+38,00bdcf+58,00c9b5+78,36cd96+100 */
+	background: #57afe4; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #57afe4 14%, #52b3db 38%, #00bdcf 58%, #00c9b5 78%, #36cd96 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(14%,#57afe4), color-stop(38%,#52b3db), color-stop(58%,#00bdcf), color-stop(78%,#00c9b5), color-stop(100%,#36cd96)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, #57afe4 14%,#52b3db 38%,#00bdcf 58%,#00c9b5 78%,#36cd96 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, #57afe4 14%,#52b3db 38%,#00bdcf 58%,#00c9b5 78%,#36cd96 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, #57afe4 14%,#52b3db 38%,#00bdcf 58%,#00c9b5 78%,#36cd96 100%); /* IE10+ */
+	background: linear-gradient(135deg, #57afe4 14%,#52b3db 38%,#00bdcf 58%,#00c9b5 78%,#36cd96 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57afe4', endColorstr='#36cd96',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	margin-bottom: 10px;
+}
+
+#bannerContents{
+	border: solid 0px purple;
+	position: relative;
+	top: 0px;
+	height: 150px;
+}
+
+#gohome{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	height: 105px;
+	border: solid 0px black;
+	border-radius: 100%;
+	background-color: rgba(255, 255, 255, .0);
+	text-align: center;	
+}
+
+#main{
+	border: solid 0px orange;
+	position: relative;
+	top: 25px;
+	margin: 0 auto;
+	font-size: 60pt;
+	height: 50px;
+	width: 550px;
+}
+
+
+.home{
+	border: solid 0px green;
+	height: 35px;
+	width: 110px;
+	font-size: 12pt;
+	border-radius: 4pt;
+	background-color: rgba(255, 255, 255, .35);
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	z-index: 4;
+}
+
+.title{
+	font-size: 30pt;
+	margin-left: 50px;
+	border: solid 0px yellow;
+	margin-top: 20px;
+}
+
+li{
+	border: solid 0px purple;
+	margin-bottom: 15px;
+	list-style-type: none;
+	border-radius: 5px;
+	height: 40px;
+	width: 95%;
+	vertical-align: middle;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+#copyright{
+	border: solid 0px red;
+	position: relative;
+	height: 15px;
+	width: 100px;
+	top: 20px;
+	left: 75%;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

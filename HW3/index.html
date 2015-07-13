@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Fixed&Float Example</title>
+</head>		
+
+		<style>	
+				
+			html,body{
+				height:100vh;
+			}	
+
+			body{
+				border:solid 1px #FFF;
+				margin:0px;
+
+			}
+			#wrap{
+				border:dashed 1px #000;
+				width:960px;
+				margin:0 auto;
+			}
+
+			#banner{
+				width:100%;
+				height:60px;
+				background:rgb(237,237,237);
+			}
+
+			nav{
+				height:50px;
+				width:100%;
+				background:rgba(237,237,237, .5);
+			}
+
+			nav ul{
+				list-style:none;
+				padding:0px;
+				border:solid 1px #000;
+			}
+
+			nav ul li{
+				border:solid 0px #000;
+				text-align:center;
+				vertical-align:middle;
+				width:25%;
+				float:left;
+				font-weight:bold;
+				font-size:16pt;
+				border-top-width:10pt;
+				padding-top:5pt;
+				
+			}
+
+			nav ul li:hover{
+				background:black;
+				color:white;
+				cursor:pointer;
+			}
+
+			#Column1{
+				width:49%;
+				background:#FFF;
+				float:left;
+				height:100vh;
+				border: dashed 1px #DDD;
+			}
+
+			#Column2{
+				width:68vh;
+				background: black;
+				float:left;
+				height:100vh;
+				color:white;
+			}
+
+			#footer{
+				clear:both;
+			}
+
+			#FixedFB{
+				position:fixed;
+				top:10px;
+				left:0px;
+				background:rgb(44,66,129);
+				width:50px;
+				height:50px;
+				text-align:center;
+				font-weight:bold;
+				font-size:50px;
+				font-color:white; /*if I add a letter, why won't this turn white?*/
+
+			}
+
+			#FixedTW{
+				position:fixed;
+				top:61px;
+				left:0px;
+				background:rgb(89,152,209);
+				width:50px;
+				height:50px;
+			}
+
+			#HomeworkBar{
+				position:fixed;
+				top:150px;
+				left:0px;
+				background:white;
+				width:220px;
+				height:50px;
+				font-size:9.5pt;
+				font-weight:bold;
+			}
+			
+			img {
+				max-width:100%; 
+				max-height:100%;
+				margin:auto;
+				display:block;
+			}
+
+/*Trying to make clickable image in div*/
+			#FBPic{
+				border:solid 1px black;
+				z-index:1;
+			}
+	
+
+		</style>
+</head>
+<body>
+	<div id="HomeworkBar">
+		<p>
+		<a href="SShaferHomework3B.html" target="_blank">
+			Click <b>here</b> to see Sonya's assignment B
+		</a>
+		<a href="SShaferHomework3C.html" target="_blank">
+			Click <b>here</b> to see Sonya's assignment C
+		</a>
+		</p>
+	</div>
+
+
+	<div id="FixedFB">
+<!--Trying to make clickable image over div		<img src="images/FB.png"> -->
+		<a href="http://www.facebook.com" target="_blank" style="display:block; height:100%; width:100%;"></a>
+	</div>
+	
+	<div id="FixedTW">
+	<!--Trying to make clickable image over div	<img id="TWPic"	
+		<img src="images/TW.png">-->
+		<a href="http://www.twitter.com" target="_blank" style="display:block; height:100%; width:100%;"></a>
+	</div>
+
+	<div id="wrap">
+	<div id="banner">
+	</div>
+	<nav>
+	<ul>
+		<li> <a href="http://www.bbc.com/news" target="_blank">News</a></li>
+		<li> <a href="http://www.bbc.com/weather" target="_blank">Weather</a></li>
+		<li> <a href="http://www.bbc.com/technology" target="_blank">Tech</a></li>
+		<li> <a href="http://www.bbc.com/business" target="_blank">Money</a></li>
+
+	</ul>
+	</nav>
+	<div id="Column1">
+		<h3 style="text-align: center;"> In Today's News </h3>
+
+		All kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content. 
+
+		<p>
+		<a href="http://www.bbc.com/news" target="_blank"><img src="images/cat.jpg">
+		</a>
+		</p>
+
+		In other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news.
+
+	</div>
+
+
+	<div id="Column2">
+		<h3 style="text-align: center;"> Business & Tech </h3>
+
+		All kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content all kinds of content.
+		
+		<p>
+		<a href="http://www.bbc.com/news/technology" target="_blank"><img src="images/sophisticat.jpg">
+		</a>
+		</p>
+
+		In other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news in other news.
+
+	</div>
+
+	<div id="footer">
+		Copyright sms &copy; 2015
+	</div>
+
+</div>
+
+</body>
+
+
+</html>			
